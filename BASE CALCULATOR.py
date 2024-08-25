@@ -8,11 +8,11 @@ if mode == "1":
         number=int(input("Enter the number:"))
         bin_number=format(number, "b")
         print(bin_number)
-    if base == "2":
+    elif base == "2":
         number=int(input("Enter the number:"))
         oct_number=oct(number)
         print(oct_number)
-    if base == "3":
+   elif base == "3":
         number=int(input("Enter the number:"))
         hex_number=format(number, "0x")
         print(hex_number)
