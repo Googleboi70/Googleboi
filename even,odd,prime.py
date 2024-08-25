@@ -1,5 +1,5 @@
 #writing a program to print the even, odd and prime numbers in a range or list and their respective sum and count.
-print("1.Range", "2.List", sep ="\n")
+print("1. Range", "2. List", sep = "\n")
 mode = input("Enter the mode you want:")
 sum = 0
 count = 0
@@ -53,7 +53,7 @@ else:
                 count += 1
                 lst.append(i)
         else:
-            print(f"The even numbers in this list are:{lst}.", "Their sum is {}".format(sum), "Their count is %d" % (count), sep="\n")
+            print(f"The even numbers in this list are: {lst}.", "Their sum is {}".format(sum), "Their count is %d" % (count), sep="\n")
             print("\n\n")
         sum = 0
         count = 0
@@ -64,8 +64,7 @@ else:
                 count += 1
                 lst.append(i)
         else:
-            print(f"The odd numbers in this list is :{lst}", f"The sum of the odd number in2"
-                                                             f" this list is :{sum}", f"Their count is :{count}", sep="\n")
+            print(f"The odd numbers in this list are: {lst}", f"The sum of the odd numbers in this list is :{sum}", f"Their count is :{count}", sep="\n")
             print("\n\n")
             sum = 0
             count = 0
